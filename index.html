@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phishing Detection Awareness</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="neon-bg"></div>
+
+    <header>
+        <h1 class="neon-title">Phishing Detection System</h1>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <h2>Enter URL or Email Content</h2>
+            <textarea id="inputText" placeholder="Paste a URL or suspicious email text here..."></textarea>
+            <button onclick="scanText()">Scan</button>
+
+            <div id="result" class="result"></div>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
